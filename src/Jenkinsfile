@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "kubernetesdevops/docker-jenkins-demo"
+    imagename = "kubernetesdevops/kubernetesdevops/symfonytest"
     registryCredential = 'credential docker'
     dockerImage = ''
   }
